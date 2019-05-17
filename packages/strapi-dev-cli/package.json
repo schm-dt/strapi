@@ -1,0 +1,15 @@
+{
+  "name": "strapi-dev-cli",
+  "version": "3.0.0-alpha.26.2",
+  "description": "Strapi dev cli",
+  "homepage": "http://strapi.io",
+  "scripts": {
+    "test": "jest --verbose"
+  },
+  "bin": {
+    "strapi-dev-cli": "./bin/dev-cli.js"
+  },
+  "dependencies": {
+    "commander": "^2.20.0"
+  }
+}
